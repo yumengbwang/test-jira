@@ -1,0 +1,15 @@
+{
+    "name": "testcase_demo",
+    "version": "0.0.1",
+    "dependencies": {
+        "karma": "0.12.16",
+        "karma-jasmine": "~0.2.2",
+        "karma-chrome-launcher": "~0.1.0",
+        "karma-phantomjs-launcher": "~0.1.4",
+        "karma-junit-reporter": "~0.2.2",
+        "phantomjs": "~1.9"
+    },
+    "scripts": {
+      "test": "node_modules/karma/bin/karma start"
+    }
+}
